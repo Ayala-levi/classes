@@ -1,0 +1,1295 @@
+
+* {
+    box-sizing: border-box;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgba(245, 212, 240, 0.652);
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    overflow-x: visible;
+    height: 24vh;
+    background-color: #efc2ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    position: fixed;
+    width: 100vw;
+}
+
+li {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    padding-right: 0vh;
+    padding-left: 0.5vh;
+    overflow-y: hidden;
+}
+#card-cake{
+    text-decoration: none;
+    color: #000;
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-image:none;
+}
+#h1a::before{
+content: " ~ ";
+}
+#h1a::after{
+    content: " ~ ";
+}
+#h1 {
+    padding-bottom: 1em;
+}
+
+#logo {
+    display: flex;
+    width: 17vh;
+    margin: 6vh;
+    padding: 0;
+    margin-right: 4vh;
+}
+
+#logo img {
+    width: 100%;
+    border-radius: 4vh;
+}
+
+li b a {
+    background-image: linear-gradient(to left, #efc2ea, #a9cbe9 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+    background-position: 0 100%;
+    background-size: 200% 100%;
+    transition: all .2s ease-in;
+    text-decoration: none;
+    padding: 2.3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 21px;
+}
+
+li b a:hover {
+    background-position: 100% 0;
+}
+
+#dropdown-contentWomen {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    background-color: #f7d3f3;
+    box-shadow: 0px 0px 5px;
+    width: 35vh;
+    top: 130px;
+}
+
+#dropdown-contentWomen a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li:hover #dropdown-contentWomen {
+    display: block;
+}
+
+#dropdown-contentC {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    background-color: #f7d3f3;
+    box-shadow: 0px 0px 5px;
+    width: 26.5vh;
+    top: 130px;
+}
+
+#dropdown-contentC a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li:hover #dropdown-contentC {
+    display: block;
+}
+
+#dropdown-contentGirl {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    background-color: #f7d3f3;
+    box-shadow: 0px 0px 5px;
+    width: 26.5vh;
+    top: 130px;
+}
+
+#dropdown-contentGirl a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li:hover #dropdown-contentGirl {
+    display: block;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video video {
+    z-index: -1;
+    width: 48%;
+    margin-top: 26vh;
+    box-shadow: 0px 0px 5px;
+}
+
+.chat:hover {
+    transform: scale(1.2);
+}
+
+#decartion {
+    width: 600px;
+    float: left;
+
+}
+
+#decartion img {
+    width: 100%;
+    opacity: 0.1;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.yeziratKesher {
+    margin-left: 30%;
+}
+
+footer p,
+footer a {
+    font-size: larger;
+    text-align: center;
+}
+
+footer {
+    z-index: -1;
+    padding: 20px;
+    background-color: #efc2ea;
+    width: 100vw;
+    height: 20em;
+    position: sticky;
+    top: 80vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.contact div {
+    height: 40px;
+    margin-top: 10px;
+    overflow-y: hidden;
+}
+
+#iconsCard img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+#iconsCard {
+    width: 20vw;
+}
+
+#icons img {
+    width: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#card img {
+    width: 40px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.icons {
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.logo {
+    margin-top: 2vh;
+    width: 10vw;
+    padding: 0.5vh;
+}
+
+.logo img {
+    width: 100%;
+    border-radius: 5vh;
+    box-shadow: 0px 0px 3px black;
+}
+
+div p {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    margin: 1rem;
+}
+
+.ulCake {
+    opacity: 0.8;
+    position: absolute;
+}
+
+.videoCake {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoCake video {
+    z-index: -1;
+    width: 100%;
+    margin-top: 0%;
+    box-shadow: 0px 0px 5px;
+}
+
+.sep-11 {
+    height: 1px;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 23px;
+}
+
+.sep-11:after {
+    display: inline-block;
+    position: relative;
+    top: -14px;
+    padding: 0 5px;
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.sep-11.grey {
+    color: #555;
+    border-top: 4px double #999;
+}
+
+#gallery1 div,
+#gallery2 div {
+    border-radius: 10px;
+}
+
+#gallery1 div img,
+#gallery2 div img {
+    width: 100%;
+
+}
+
+#gallery1 div img:hover,
+#gallery2 div img:hover {
+    transform: scale(1.05);
+    border-radius: 10px;
+}
+
+#gallery1 div {
+    width: 20%;
+    height: 230px;
+    margin: 5px;
+    box-shadow: 0 0 8px;
+    overflow: hidden;
+}
+
+#gallery2 div {
+    width: 20%;
+    height: 370px;
+    margin: 5px;
+    box-shadow: 0 0 8px;
+    overflow: hidden;
+
+}
+
+#gallery1,
+#gallery2 {
+    display: flex;
+    align-content: center;
+    margin: 10px;
+}
+
+.beforeAfter {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.beforeAfter2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.beforeAfter a {
+    border-radius: 5rem;
+    background-color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 2px 0px 5px;
+}
+
+.beforeAfter2 a {
+    background-color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 2px 0px 5px;
+    border-radius: 5rem;
+}
+
+div .pratim {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.pratim li {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.card-item img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+}
+
+.card {
+    padding-top: 13%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-item {
+    margin: 3vw;
+    border-radius: 3vh;
+    font-size: larger;
+    background-color: rgb(231, 233, 235);
+    width: 52vh;
+    box-shadow: 0px 0px 3px black;
+}
+
+.card p,
+.card h3 {
+    padding: 1vh;
+}
+
+.card-item h1 {
+    text-shadow: 2px 2px 5px rgb(254, 176, 239);
+}
+
+form {
+    padding: 2rem;
+    width: 65vh;
+    height: 110vh;
+    background-color: rgb(240, 198, 233);
+    border-radius: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+button {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+input:focus {
+    background-color: rgb(247, 240, 231);
+}
+
+input:invalid {
+    border: 2px solid rgb(8, 8, 8);
+}
+
+.Content1 {
+    font-size: larger;
+    align-items: center;
+    padding-top: 14%;
+    text-align: center;
+    margin-right: 35%;
+}
+
+#homePage {
+    text-decoration: underline;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+#homePage a {
+    color: #000;
+    text-decoration: none;
+}
+
+.body {
+    z-index: 1;
+}
+
+h6 {
+    font-size: 25px;
+    padding-top: 13%;
+    z-index: 5;
+}
+
+h5 {
+    font-size: 25px;
+    padding-top: 1%;
+    z-index: 5;
+}
+
+.Content1 {
+    z-index: 3;
+    padding-top: 0;
+}
+
+.chat {
+    border-radius: 100px;
+    position: fixed;
+    right: 12px;
+    bottom: 12px;
+    margin-right: 0px;
+    width: 5em;
+    padding: 0;
+}
+
+.chat img {
+    width: 100%;
+}
+
+#bodyA {
+    padding-top: 13%;
+    width: 70vw;
+    margin-right: 15%;
+}
+
+.galleryA {
+    display: flex;
+    width: 100vw; 
+}
+
+.galleryA div {
+    padding: 1vh;
+    overflow-y: hidden;
+   
+}
+.img8_9{
+    position: absolute;
+    margin-right: 160vh;
+    z-index: -1;
+}
+
+.img5_6_7{
+    width: 55vw;
+}
+.img6_7{
+    display: flex;
+    height: 25vh;
+    flex-direction: row;
+}
+#img2 {
+    width: 18vw;
+    padding-top: 3vh;
+}
+
+#img2 img {
+    width: 100%;
+}
+
+#img4 img {
+    width: 20vw;
+}
+#img6 img {
+    width: 22vw;
+}
+#img7{
+    margin-right: 2vh;
+}
+#img7 img {
+    width: 60%;
+}
+#img9 img {
+    width: 20vw;
+}
+.imgBig {
+    width: 50px;
+}
+
+.videoT {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoT video {
+    opacity: 0.9;
+    z-index: -30;
+    width: 55%;
+    margin-bottom: 7%;
+}
+
+#h1A {
+    padding-top: 50px;
+}
+
+.kishur {
+    display: none;
+}
+
+.p {
+    overflow-y: hidden;
+}
+
+@media screen and (max-width:1450px) {
+
+    ul {
+        height: 25vh;
+        width: 100vw;
+    }
+
+    li b {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li {
+        text-align: center;
+    }
+
+    li b a {
+        text-decoration: none;
+        padding: 2.5rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 25px;
+        padding-top: 23vh;
+        z-index: 5;
+    }
+
+    #logo {
+        width: 8vw;
+        margin: 4vh;
+        margin-right: 2vh;
+    }
+
+    #logo img {
+        width: 100%;
+        border-radius: 2vh;
+    }
+
+    .card {
+        padding-top: 16%;
+    }
+
+    .video video {
+        z-index: -1;
+        width: 55vw;
+        margin-top: 28vh;
+        box-shadow: 0px 0px 5px;
+    }
+
+    .contact {
+        width: 30vw;
+        font-size: 22vh;
+    }
+
+    #h1,
+    .yeziratKesher,
+    #castomers {
+        font-size: 4vh;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .p {
+        padding: 3vh;
+    }
+
+    .contact p,
+    .p p {
+        font-size: 2.5vw;
+    }
+
+    form {
+        width: 80vh;
+        height: 125vh;
+    }
+
+    .Content1 {
+        margin-right: 28vw;
+    }
+
+    #bodyA {
+        margin-top: 10vh;
+    }
+
+    .card-item {
+        margin: 1.5vw;
+        border-radius: 3vh;
+        font-size: larger;
+        background-color: rgb(231, 233, 235);
+        width: 52vh;
+        box-shadow: 0px 0px 3px black;
+    }
+
+    h6 {
+        padding-top: 30vh;
+    }
+
+    #dropdown-contentGirl {
+        width: 29vh;
+        top: 130px;
+    }
+
+    #dropdown-contentC {
+        width: 29vh;
+        top: 130px;
+    }
+
+    #dropdown-contentWomen {
+        width: 38vh;
+        top: 130px;
+    }
+    .img8_9{
+        position: absolute;
+        margin-right: 165vh;
+        z-index: -1;
+    }
+    
+    .img5_6_7{
+        width: 55vw;
+    }
+    .img6_7{
+        display: flex;
+        height: 25vh;
+        flex-direction: row;
+    }
+    #img2 {
+        width: 18vw;
+        padding-top: 3vh;
+    }
+    
+    #img2 img {
+        width: 100%;
+    }
+    
+    #img4 img {
+        width: 20vw;
+    }
+    #img6 img {
+        width: 22vw;
+    }
+    #img7{
+        margin-right: 2vh;
+    }
+    #img7 img {
+        width: 65%;
+    }
+    #gallery1 div {
+        height: 27vh;
+    }
+    
+    #gallery2 div {
+        height: 48vh;
+    }
+    
+}
+
+@media screen and (max-width:1024px) {
+    ul {
+        height: 20vh;
+        width: 100vw;
+    }
+
+    li b {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li {
+        text-align: center;
+    }
+
+    li b a {
+        text-decoration: none;
+        padding: 2rem;
+        font-size: 18px;
+    }
+
+    h6 {
+        font-size: 25px;
+        padding-top: 23vh;
+        z-index: 5;
+    }
+
+    #logo {
+        width: 12vw;
+        margin: 3vh;
+        margin-right: 2vh;
+    }
+
+    #logo img {
+        width: 100%;
+        border-radius: 2vh;
+    }
+
+    .video video {
+        z-index: -1;
+        width: 70vw;
+        margin-top: 23vh;
+        box-shadow: 0px 0px 5px;
+    }
+
+    .contact {
+        width: 30vw;
+        font-size: 22vh;
+    }
+
+    #h1,
+    .yeziratKesher,
+    #castomers {
+        font-size: 4vh;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .p {
+        padding: 3vh;
+    }
+
+    .contact p,
+    .p p {
+        font-size: 2.5vw;
+    }
+
+    form {
+        width: 80vh;
+        height: 125vh;
+    }
+
+    .Content1 {
+        margin-right: 20vw;
+    }
+
+    #bodyA {
+        margin-top: 10vh;
+    }
+
+    .videoT video {
+        width: 80vh;
+    }
+
+    #dropdown-contentGirl {
+        width: 18vh;
+        top: 130px;
+    }
+
+    #dropdown-contentC {
+        width: 18vh;
+        top: 130px;
+    }
+
+    #dropdown-contentWomen {
+        width: 24vh;
+        top: 130px;
+    }
+    .img8_9{
+        display: none;
+    }
+    .galleryA {
+        display: flex;
+        width: 100vw;
+        flex-wrap: wrap; 
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    #gallery1 div {
+        height: 20vh;
+    }
+    
+    #gallery2 div {
+        height: 33vh;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    ul {
+        height: 24vh;
+        width: 100vw;
+    }
+
+    li b {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li {
+        text-align: center;
+    }
+
+    li b a {
+        text-decoration: none;
+        padding: 2rem;
+        font-size: 18px;
+    }
+
+    h6 {
+        font-size: 25px;
+        padding-top: 23vh;
+        z-index: 5;
+    }
+
+    #logo {
+        width: 17vw;
+        margin: 3vh;
+        margin-right: 2vh;
+    }
+
+    #logo img {
+        width: 100%;
+        border-radius: 2vh;
+    }
+
+    .video video {
+        z-index: -1;
+        width: 80vw;
+        margin-top: 23vh;
+        box-shadow: 0px 0px 5px;
+    }
+
+    .contact {
+        width: 30vw;
+        font-size: 22vh;
+    }
+
+    #h1,
+    .yeziratKesher,
+    #castomers {
+        font-size: 4vh;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .p {
+        padding: 3vh;
+    }
+
+    .contact p,
+    .p p {
+        font-size: 2.5vw;
+    }
+
+    form {
+        width: 75vh;
+        height: 125vh;
+    }
+
+    .Content1 {
+        margin-right: 18vw;
+    }
+
+    #bodyA {
+        margin-top: 10vh;
+    }
+
+    .card {
+        padding-top: 23%;
+    }
+
+    h6 {
+        padding-top: 30vh;
+    }
+
+    .videoT video {
+        width: 100vh;
+    }
+
+    .videoCake {
+        padding-top: 23vh;
+    }
+
+    #dropdown-contentGirl {
+        width: 15vh;
+        top: 130px;
+    }
+
+    #dropdown-contentC {
+        width: 15vh;
+        top: 130px;
+    }
+
+    #dropdown-contentWomen {
+        width: 20vh;
+        top: 130px;
+    }
+    .galleryA {
+        display: flex;
+        width: 100vw;
+        flex-wrap: wrap; 
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .img8_9{
+        position: absolute;
+        margin-right: 160vh;
+        z-index: -1;
+    }
+    
+    .img5_6_7{
+        width: 75vw;
+    }
+    .img6_7{
+        display: flex;
+        height: 25vh;
+        flex-direction: row;
+    }
+    #img2 {
+        width: 30vw;
+        padding-top: 3vh;
+    }
+    
+    #img2 img {
+        width: 100%;
+    }
+    #img3 img {
+        width: 36vw;
+    }
+    #img4 img {
+        width: 30vw;
+    }
+    #img6{
+        margin-right: 8vh;
+    }
+    #img6 img {
+        width: 40vw;
+    }
+    #img7{
+        margin-left: 9vh;
+    }
+    #img7 img {
+        width: 40vw;
+    }
+    #gallery1 div {
+        height: 20vh;
+    }
+    
+    #gallery2 div {
+        height: 33vh;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    ul {
+        height: 20vh;
+        width: 100vw;
+    }
+
+    li {
+        display: none;
+    }
+
+    .videoT video {
+        width: 100vh;
+    }
+
+    #bodyA {
+        margin-top: 10vh;
+    }
+
+    #decartion {
+        width: 50vw;
+        float: left;
+
+    }
+
+    #logo {
+        width: 20vw;
+        margin: 3vh;
+        margin-right: 2vh;
+    }
+
+    #logo img {
+        width: 100%;
+        border-radius: 2vh;
+    }
+
+    .video video {
+        width: 100vw;
+    }
+
+    #h1,
+    .yeziratKesher,
+    #castomers {
+        font-size: 4vh;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .p {
+        padding: 3vh;
+    }
+
+    .contact p,
+    .p p {
+        font-size: 4vw;
+    }
+
+    form {
+        width: 100vw;
+        height: 115vh;
+    }
+
+    .Content1 {
+        margin-right: 0;
+    }
+
+    h6 {
+        padding-top: 23vh;
+        font-size: medium;
+    }
+
+    h5 {
+        font-size: medium;
+    }
+
+    footer {
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icons {
+        text-align: center;
+        padding-right: 10vw;
+        overflow-y: hidden;
+    }
+
+    .contact {
+        width: 100vw;
+        margin: 0;
+        padding-left: 3px;
+    }
+
+    .p {
+        text-align: center;
+        overflow-y: hidden;
+    }
+
+    #iconsCard {
+        width: 80vw;
+        overflow-y: hidden;
+    }
+
+    .card {
+        padding-top: 23vh;
+    }
+
+    .videoCake {
+        padding-top: 20vh;
+    }
+
+    #gallery1 {
+        flex-direction: column;
+        display: flex;
+    }
+
+    #gallery1 div {
+        width: 100vw;
+    }
+
+    #gallery2 {
+        flex-direction: column;
+        display: flex;
+    }
+
+    #gallery2 div {
+        width: 93vw;
+        margin-right: 3px;
+    }
+
+    nav1 {
+        display: none;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .kishur button,
+    .kishur a {
+        padding: 1rem;
+        text-decoration: none;
+        display: block;
+
+    }
+
+    .kishur button {
+        margin-top: 0;
+    }
+
+    a:hover {
+        background-position: 100% 0;
+    }
+
+    a {
+        background-image: linear-gradient(to left, #efc2ea, #a9cbe9 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+        background-position: 0 100%;
+        background-size: 200% 100%;
+        transition: all .2s ease-in;
+        text-decoration: none;
+        padding: 3rem;
+    }
+
+    .kishur {
+        margin-top: 6vh;
+        position: fixed;
+        display: flex;
+        width: 150px;
+        flex-direction: column;
+        background-color: #efc2ea;
+        box-shadow: 0px 0px 5px;
+        z-index: 4;
+        font-weight: bold;
+    }
+
+    .kishur:hover nav1 {
+        display: block;
+    }
+
+    #homePage {
+        overflow-y: hidden;
+    }
+
+    * {
+        overflow-x: hidden;
+    }
+    .galleryA {
+        display: flex;
+        width: 100vw;
+        flex-wrap: wrap; 
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .img8_9{
+        display: none;
+    }
+    
+    .img5_6_7{
+        width: 100vw;
+    }
+    .img6_7{
+        display: flex;
+        height: 70vh;
+        flex-direction: column;
+    }
+    #img2 {
+        width: 70vw;
+        padding-top: 3vh;
+    }
+    
+    #img2 img {
+        width: 100%;
+    }
+    #img3 img {
+        width: 70vw;
+    }
+    #img4 img {
+        width: 70vw;
+    }
+    #img5 img {
+        width: 80vw;
+    }
+    #img6{
+        margin-left: 8vh;
+    }
+    #img6 img {
+        width: 80vw;
+    }
+    #img7{
+        margin-right: 5vh;
+    }
+    #img7 img {
+        width: 80vw;
+    }
+    #gallery1 div {
+        height: 48vh;
+       width: 90vw;
+    }
+    
+    #gallery2 div {
+        height: 80vh; 
+        width: 90vw;
+    }
+}
