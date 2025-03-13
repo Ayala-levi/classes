@@ -1,6 +1,6 @@
 # Classes website
 
-"Machog" is a website that centralizes a wide variety of classes for all ages and interests. The site allows users to easily find classes that suit them, register for them, and enjoy an enriching and enjoyable experience. The site includes classes for women and girls, for children, and enables convenient registration for classes. The project is intended for personal and educational use.
+This project is a website that centralizes a wide variety of classes for all ages and interests. The site allows users to easily find classes that suit them, register for them, and enjoy an enriching and enjoyable experience. The site includes classes for women and girls, for children, and enables convenient registration for classes. The project is intended for personal and educational use.
 
 ## Technologies
 
