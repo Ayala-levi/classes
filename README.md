@@ -41,6 +41,7 @@ This project is a website that centralizes a wide variety of classes for all age
 * You can change the site's design by editing the **stayle.css** file.
 * You can add new images and videos to the **images/** folder.
 * You can add new icons to the **icons/** folder.
+### Render Cloud Link: https://classes-hyqz.onrender.com
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # "מחוג" - חוגים סביב השעון
 מחוג" הוא אתר אינטרנט המרכז מגוון רחב של חוגים לכל הגילאים ולכל תחומי העניין. האתר מאפשר למשתמשים למצוא בקלות חוגים המתאימים להם, להירשם אליהם וליהנות מחוויה מעשירה ומהנה. האתר כולל חוגים לנשים ונערות, לילדות ולילדים, ומאפשר הרשמה נוחה לחוגים. הפרויקט מיועד לשימוש אישי ולימודי.
@@ -78,4 +79,5 @@ git clone https://github.com/Ayala-levi/classes
 - ניתן לשנות את עיצוב האתר על ידי עריכת קובץ **stayle.css.**
 - ניתן להוסיף תמונות וסרטונים חדשים לתיקייה **images/.**
 - ניתן להוסיף אייקונים חדשים לתיקייה **icons/.**
+### קישור לרנדר: https://classes-hyqz.onrender.com
 
